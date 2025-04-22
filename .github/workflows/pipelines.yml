@@ -17,6 +17,14 @@ jobs:
       # pipeline actions
       - run: npm install
       - run: npm run test:cov
-      - run: ./node_modules/.bin/codecov
+
+      # Reemplazamos el paso de codecov local por la acción oficial
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./coverage/pokedex-angular/lcov.info  # Asegúrate de que la ruta al archivo sea correcta
+          flags: angular  # Puedes personalizarlo según el nombre de tu proyecto
+          name: codecov-pokedex-angular  # Puedes darle un nombre único al reporte
+          fail_ci_if_error: true  # Este paso es opcional: falla el CI si hay un error en la subida
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
