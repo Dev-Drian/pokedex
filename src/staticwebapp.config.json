@@ -1,13 +1,11 @@
-{
-  "navigationFallback": {
-    "rewrite": "/index.html"
-  },
-  "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-eval' 'report-sample'; style-src 'self' 'unsafe-inline' 'report-sample' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://raw.githubusercontent.com https://assets.pokemon.com; connect-src 'self' https://beta.pokeapi.co; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://tu-endpoint-de-reportes.com/report;",
-    "X-Frame-Options": "SAMEORIGIN",
-    "X-Content-Type-Options": "nosniff",
-    "Referrer-Policy": "strict-origin-when-cross-origin",
-    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
-    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
-  }
-}
+{{
+   "navigationFallback": {
+     "rewrite": "/index.html"
+   },
+   "globalHeaders": { "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; img-src 'self' data: https://raw.githubusercontent.com https://assets.pokemon.com; connect-src 'self' https://beta.pokeapi.co; frame-src 'self'",
+     "X-Frame-Options": "SAMEORIGIN",
+     "X-Content-Type-Options": "nosniff",
+     "Referrer-Policy": "strict-origin-when-cross-origin","Permissions-Policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+     "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+   }
+ }
