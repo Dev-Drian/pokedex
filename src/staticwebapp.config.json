@@ -3,7 +3,7 @@
     "rewrite": "/index.html"
   },
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://raw.githubusercontent.com https://assets.pokemon.com; connect-src 'self' https://beta.pokeapi.co; frame-src 'self'",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-hashes' 'sha256-/3fJPRl0HTENDcV6U4bppSRSCXgkBBHvMspqcl2CIHo='; style-src 'self' https://fonts.googleapis.com 'sha256-/3fJPRl0HTENDcV6U4bppSRSCXgkBBHvMspqcl2CIHo=' 'sha256-AsLMiGs3lRPzmR11w7HcKAt1MluN5CnGLtY1r6vYusI=' 'sha256-Y333cBP6orNX4OUqSTmy+rCAm2DNk280bk/PSZb78iU=' 'sha256-Sjxn3NceX0drZJqDPAiiZPRLLmQTcLgMtGAsW5Yo7X8=' 'sha256-8sqSWCi5ZULqiuXSXcfXRqqAsOsMnkA0YKCO5l/pMUQ=' 'sha256-+krUXT7QofbZauWOMlul/UfONLFRRkGEPg0VjsdZdcM=' 'sha256-9DZ5yILtQKby6DzPllK2xCBV/yyXpHUxoFLit0OvFDY=' 'sha256-VVGIZzfj8rSwtyAlJRCmpvtRulklXwEZ9IWmfGLdDW8=' 'sha256-P6qG9CfLznYmhQUuQGbwH0Kst2rcvipT6G7OPEPxGRo=' 'sha256-MBVp6JYxbC/wICelYC6eULCRpgi9kGezXXSaq/TS2+I=' 'sha256-6aG8LTwvPIod1wAu9t9GmG73zHJu1T01bKqMAoql64Y='; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://raw.githubusercontent.com; connect-src 'self' https://beta.pokeapi.co; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'",
     "X-Frame-Options": "DENY",
     "X-Content-Type-Options": "nosniff",
     "Referrer-Policy": "no-referrer",
