@@ -1,36 +1,79 @@
-# Pokédex Angular
+# 🌐 Pokédex
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![codecov](https://codecov.io/gh/keilermora/pokedex-angular/branch/master/graph/badge.svg?token=9E0D28IOFT)](https://codecov.io/gh/keilermora/pokedex-angular)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![codecov](https://codecov.io/gh/keilermora/pokedex-angular/branch/master/graph/badge.svg?token=9E0D28IOFT)](https://codecov.io/gh/keilermora/pokedex-angular) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Angular Version](https://img.shields.io/badge/Angular-16+-DD0031.svg)](https://angular.io/)
 
-[https://keilermora.github.io/pokedex-angular/](https://keilermora.github.io/pokedex-angular/)
+## 📌 Visión General
 
-La aplicación muestra el listado y el detalle de los Pokémon de las primeras 3 generaciones.
+La **Pokédex Angular** es una aplicación web desarrollada con el framework Angular que ofrece una experiencia interactiva para explorar información detallada sobre Pokémon de las primeras tres generaciones (1996-2005). La aplicación destaca por su:
 
-La imagen que representa un Pokémon en el listado muestra las variaciones que estos tuvieron durante las primeras versiones, desde la versión Green (1996) hasta la version Emerald (2005).
+- Visualización cronológica de diseños de Pokémon desde Green hasta Emerald
+- Sistema completo de búsqueda y filtrado
+- Detalladas vistas de estadísticas base
+- Registros históricos de Pokédex por versión
 
-Los detalles de un Pokémon individual muestra sus estadísticas base y los registros de la Pokédex de las diferentes versiones.
+**URL de Producción**: [https://white-beach-03e50fd0f.6.azurestaticapps.net/](https://white-beach-03e50fd0f.6.azurestaticapps.net/)
 
-El proyecto fue desarrollado usando la librería de JavaScript [Angular](https://angular.io/) para crear la interfaz de usuario, en comunicación con la Api RESTful [PokéAPI](https://pokeapi.co/).
+## 🛠 Requisitos Técnicos
 
-## Requisitos mínimos
+### Entorno de Desarrollo
 
-- [Nodejs](https://nodejs.org) con soporte de largo plazo (LTS).
-- Un navegador web
+| Componente       | Versión Mínima | Recomendada |
+|------------------|----------------|-------------|
+| Node.js          | 16.x           | 16.x LTS    |
+| Angular CLI      | 16.x           | 16.x        |
 
-## Ambiente de pruebas
 
-Ejecutar en la raíz del proyecto:
+## 🚀 Configuración del Entorno de Desarrollo
 
+### 1. Clonación del Repositorio
+
+Ejecute el siguiente comando en su terminal:
+
+```bash
+git clone https://github.com/Dev-Drian/pokedex
+cd pokedex
 ```
+
+### 2. Instalación de Dependencias
+
+Recomendamos utilizar npm para la instalación:
+
+```bash
+npm install
+```
+
+### 3. Ejecución del Servidor de Desarrollo
+
+Inicie la aplicación en modo desarrollo con:
+
+```bash
 npm start
 ```
 
-## Referencias
+La aplicación estará disponible en:  
+[http://localhost:4200](http://localhost:4200)
 
-- [Angular](https://angular.io/): One framework.
-- [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/): Create a skeleton structure which is flexible for projects big or small.
-- [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
-- [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
-- [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
+## 🏗 Estructura del Proyecto
+
+```
+pokedex/
+├── src/
+│   ├── app/
+│   │   ├── components/       # Componentes reutilizables
+│   │   ├── pages/            # Vistas principales
+│   │   ├── services/         # Lógica de negocio y APIs
+│   │   ├── models/           # Interfaces y tipos
+│   │   └── utils/            # Utilidades compartidas
+│   ├── assets/               # Recursos estáticos
+│   └── styles/               # Estilos globales
+├── .github/                  # Configuración de GitHub
+├── e2e/                      # Pruebas end-to-end
+└── dist/                     # Build de producción
+```
+
+
+## 🤝 Contribución
+**Keiler Mora** - [GitHub](https://github.com/keilermora)
+
+
+
