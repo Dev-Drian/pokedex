@@ -4,19 +4,6 @@
 
 ## 🌟 **¡Transforma tu código en una aventura en la nube!**
 
-```mermaid
-journey
-    title Tu Camino al Despliegue
-    section Preparación
-      Preparar código: 5: Tú
-      Configurar Azure: 3: Azure
-    section Magia
-      Conectar GitHub: 4: GitHub
-      Despliegue automático: 5: Azure
-    section Celebración
-      ¡Pokédex Online!: 5: Tú
-```
-
 ## 🛠 **Prepara tu Pokéball Digital** (Requisitos)diagrama_dezpliegue.png
 - ✅ Angular CLI instalado (`ng version`)
 - ✅ Repositorio en GitHub (¡tu PC ya es tu Centro Pokémon!)
