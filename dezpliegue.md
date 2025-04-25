@@ -26,13 +26,6 @@
 2. Selecciona:
    - Tu **Repositorio** (tu Pokédex personal)
    - Rama **main/master** (tu equipo principal)
-3. Configura las rutas mágicas:
-   ```json
-   {
-     "appLocation": "/",
-     "outputLocation": "dist/pokedex"
-   }
-   ```
 
 ### 34️⃣ **¡Lanza tu Pokéball!**
 1. **Revisa** tu configuración
